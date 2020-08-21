@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <welcome-file-list>
+		 <welcome-file>login</welcome-file>
+		 </welcome-file-list>
+		 
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddNewBlogController</servlet-name>
+  	<servlet-class>controller.AddNewBlogController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteBlogController</servlet-name>
+  	<servlet-class>controller.DeleteBlogController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditViewController</servlet-name>
+   	<servlet-class>controller.EditViewController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignUpController</servlet-name>
+	<servlet-class>controller.SignUpController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateBlogController</servlet-name>
+  	<servlet-class>controller.UpdateBlogController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllBlogController</servlet-name>
+  	<servlet-class>controller.ViewAllBlogController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddNewBlogController</servlet-name>
+  	<url-pattern>/AddNewBlogController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteBlogController</servlet-name>
+  	<url-pattern>/DeleteBlogController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditViewController</servlet-name>
+  	<url-pattern>/EditViewController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignUpController</servlet-name>
+  	<url-pattern>/SignUpController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateBlogController</servlet-name>
+  	<url-pattern>/UpdateBlogController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllBlogController</servlet-name>
+  	<url-pattern>/ViewAllBlogController</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
